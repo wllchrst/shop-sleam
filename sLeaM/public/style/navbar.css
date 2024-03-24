@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+.game-image {
+    width: 854px;
+            height: 480px;
+}
+
+* {
+    color : white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.profile-container img {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+}

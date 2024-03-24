@@ -1,0 +1,33 @@
+.middle-container {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    gap: 4rem;
+}
+
+.middle-container img {
+    width: 1000px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom-container button {
+    font-size: 30px;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}

@@ -1,0 +1,47 @@
+.dash-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dash-container h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.games-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.games-image {
+    margin: 3rem;
+    border-radius: 50px;
+}
+
+button { 
+    background-color: black;
+    border: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.search-container button {
+    font-size: x-large;
+    border: 1px solid white;
+}
+
+#search {
+    font-size: x-large;
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+
+}

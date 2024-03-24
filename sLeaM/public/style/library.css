@@ -1,0 +1,15 @@
+.mid-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.information-container {
+    display: flex;
+    border: 1px solid white;
+    padding: 2rem;
+    border-radius: 25px;
+    gap: 2rem;
+    margin: 2rem;
+}
+

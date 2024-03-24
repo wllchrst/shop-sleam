@@ -1,0 +1,51 @@
+.image-container {
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 3rem;
+    display: flex;
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 1200px;
+}
+
+.left-container img {
+    height: 500px;
+}
+
+p {
+    font-size: large;
+}
+
+.game-container {
+    /* display: grid;
+    grid-template-columns: 100px 10px;
+    grid-row: auto auto;
+    justify-items: center;
+    grid-column-gap: 500px; */
+    /* grid-row-gap: 400px; */ 
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.price {
+    color: paleturquoise;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    margin: 2rem;
+    font-size: x-large;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: transparent;
+}
